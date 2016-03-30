@@ -1,0 +1,8 @@
+{
+  "name": "wp_2r_seed",
+  "version": "1.0.0",
+  "description": "wp_2r_seed",
+  "dependencies": {
+    "fontawesome": "~4.5.0"
+  }
+}

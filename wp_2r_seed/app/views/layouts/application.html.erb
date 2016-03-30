@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wp2rSeed</title>
+  <%= stylesheet_link_tag    'application', media: 'all'%>
+
+<!--   <%= javascript_include_tag 'common-bundle' %>
+  <%= javascript_include_tag 'entry_1'  %> -->
+  <%= webpack_manifest_script %>
+  <%= webpack_bundle_tag 'common' %>
+  <%= webpack_bundle_tag 'entry_1' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
